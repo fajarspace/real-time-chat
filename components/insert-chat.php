@@ -11,7 +11,7 @@
             $sql = mysqli_query($conn, "INSERT INTO messages (incoming_msg_id, outgoing_msg_id, msg, msgs) VALUES ({$incoming_id}, {$outgoing_id}, '{$msg}', '{$msgs}')") or die();
         }
     }else{
-        header("location: ../login.php");
+        header("location: ../masuk.php");
     }
 
 

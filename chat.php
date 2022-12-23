@@ -3,7 +3,7 @@
   include_once "config/config.php";
 
   if(!isset($_SESSION['unique_id'])){
-    header("location: login.php");
+    header("location: masuk");
   }
 ?>
 <?php include_once "header.php"; ?>

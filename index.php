@@ -9,8 +9,8 @@
 <body>
   <div class="wrapper">
     <section class="form signup">
-      <header>Realtime Chat App</header>
-      <form action="php/signup.php" method="POST" enctype="multipart/form-data" autocomplete="off">
+      <header>chattanSpace</header>
+      <form action="components/signup.php" method="POST" enctype="multipart/form-data" autocomplete="off">
         <div class="error-text"></div>
         <div class="name-details">
           <div class="field input">
@@ -43,8 +43,8 @@
     </section>
   </div>
 
-  <script src="javascript/pass-show-hide.js"></script>
-  <script src="javascript/signup.js"></script>
+  <script src="static/js/pass-show-hide.js"></script>
+  <script src="static/js/signup.js"></script>
 
 </body>
 </html>
