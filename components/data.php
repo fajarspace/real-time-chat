@@ -5,7 +5,7 @@ while ($row = mysqli_fetch_assoc($query)) {
     $row2 = mysqli_fetch_assoc($query2);
     mysqli_num_rows($query2) > 0
         ? ($result = $row2["msgs"])
-        : ($result = "Tidak ada pesan yang tersedia");
+        : ($result = "Mulai obrolan!");
     strlen($result) > 28
         ? ($msgs = substr($result, 0, 28) . "...")
         : ($msgs = $result);
@@ -20,28 +20,17 @@ while ($row = mysqli_fetch_assoc($query)) {
     $outgoing_id == $row["unique_id"] ? ($hid_me = "hide") : ($hid_me = "");
 
     $output .=
-        '<a href="../chat.php?user_id=' .
+    '<a href="../chat.php?user_id=' .
         $row["unique_id"] .
         '">
-                    <div class="content">
-                    <img src="../static/images/' .
-        $row["img"] .
-        '" alt="">
-                    <div class="details">
-                        <span>' .
-        $row["fname"] .
-        " " .
-        $row["lname"] .
-        '</span>
-                        <p>' .
-        $you .
-        $msgs .
-        '</p>
-                    </div>
-                    </div>
-                    <div class="status-dot ' .
-        $offline .
-        '"><i class="fas fa-circle"></i></div>
-                </a>';
+        <div class="content">
+            <img src="../static/images/' . $row["img"] . '" alt="">
+        <div class="details">
+            <span>' . $row["fname"] . " " . $row["lname"] . '</span>
+            <p>' . $you . $msgs . '</p>
+        </div>
+        </div>
+        <div class="status-dot ' . $offline . '"><i class="fas fa-circle"></i></div>
+    </a>';
 }
 ?>

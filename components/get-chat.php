@@ -15,16 +15,16 @@
                 if($row['outgoing_msg_id'] === $outgoing_id){
                     $output .= '<div class="chat outgoing">
                                 <div class="details">      
-                                    <p>'. $row['msgs'] .'</p>
-                                    <p>'. $row['msg'] .'</p>
+                                    <p class="plain">'. $row['msgs'] .'</p>
+                                    <p class="enkrip" >'. $row['msg'] .'</p>
                                 </div>
                                 </div>';
                 }else{
                     $output .= '<div class="chat incoming">
                                 <img src="static/images/'.$row['img'].'" alt="">
                                 <div class="details">
-                                    <p>'. $row['msgs'] .'</p>
-                                    <p>'. $row['msg'] .'</p>
+                                    <p class="plain">'. $row['msgs'] .'</p>
+                                    <p class="enkrip">'. $row['msg'] .'</p>
                                 </div>
                                 </div>';
                 }

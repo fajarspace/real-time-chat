@@ -38,24 +38,24 @@
                                         $_SESSION['unique_id'] = $result['unique_id'];
                                         echo "success";
                                     }else{
-                                        echo "This email address not Exist!";
+                                        echo "Email tidak tersedia!";
                                     }
                                 }else{
-                                    echo "Something went wrong. Please try again!";
+                                    echo "Ada yang salah, Silahkan coba lagi!";
                                 }
                             }
                         }else{
-                            echo "Please upload an image file - jpeg, png, jpg";
+                            echo "Tolong upload gambar - jpeg, png, jpg";
                         }
                     }else{
-                        echo "Please upload an image file - jpeg, png, jpg";
+                        echo "Tolong upload gambar - jpeg, png, jpg";
                     }
                 }
             }
         }else{
-            echo "$email is not a valid email!";
+            echo "$email email tidak valid!";
         }
     }else{
-        echo "All input fields are required!";
+        echo "Input semua field!";
     }
 ?>

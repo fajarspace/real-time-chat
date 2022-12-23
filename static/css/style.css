@@ -342,9 +342,19 @@ body {
   max-width: calc(100% - 130px);
 }
 
-.outgoing .details p {
-  background: #333;
+.outgoing .details .plain {
+  background: blue;
   color: #fff;
+  border-radius: 18px 18px 0 18px;
+}
+
+.outgoing .details .enkrip {
+  font-family: monospace;
+  font-style: italic;
+  background: #333;
+  color: whitesmoke;
+  padding: 5px 10px;
+  margin-top: 3px;
   border-radius: 18px 18px 0 18px;
 }
 
@@ -391,7 +401,7 @@ body {
   width: 55px;
   border: none;
   outline: none;
-  background: #333;
+  background: blue;
   font-size: 19px;
   cursor: pointer;
   opacity: 0.7;
