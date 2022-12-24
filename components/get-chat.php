@@ -35,7 +35,7 @@
         }
         echo $output;
     }else{
-        header("location: ../masuk.php");
+        header("location: ../masuk");
     }
 
 ?>

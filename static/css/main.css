@@ -5,6 +5,7 @@
   --primary-color-dark-blue-2: hsl(218, 28%, 13%);
   --primary-color-dark-blue-3: hsl(216, 53%, 9%);
   --primary-color-dark-blue-4: hsl(219, 30%, 18%);
+  --bg-gwej: #050C20;
   --accent-color-cyan: hsl(176, 68%, 64%);
   --accent-color-blue: hsl(198, 60%, 50%);
   --neutral-color-white: hsl(0, 0%, 100%);
@@ -22,13 +23,37 @@
   position: absolute;
   width: 100%;
   height: 100%;
-
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: 50% 50%;
+  width: 100%;
+  background-position: right;
+  background-size: contain;
+  object-fit: contain;
+
+}
+
+#astro {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/person/astro-sit.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 100%;
+  background-position: right;
+  background-size: contain;
+  object-fit: contain;
+  -webkit-animation: floatBubble 4s infinite;
+  -webkit-animation-direction: alternate;
 }
 
 .astro {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  height: auto;
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: contain;
@@ -54,13 +79,13 @@
 }
 
 .space {
-  background: -webkit-linear-gradient(#E99834, #eee);
+  background: -webkit-linear-gradient(#050C20, #259AAC);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 body {
-  background-color: var(--primary-color-dark-blue-2);
+  background-color: var(--bg-gwej);
   color: var(--neutral-color-white);
   font-family: var(--font-body);
 }
@@ -72,22 +97,16 @@ h4,
 h5,
 h6 {
   font-family: var(--font-heading);
-  line-height: 1.7;
-  font-weight: 700;
+  line-height: 1.5;
+  font-weight: 600;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 6em;
   line-height: 1;
+  justify-content: center;
 }
 
-h2 {
-  font-size: 1.8rem;
-}
-
-h3 {
-  font-size: 1.7rem;
-}
 
 p {
   font-family: var(--font-body);
@@ -113,16 +132,25 @@ header {
   justify-content: space-between;
 }
 
+.get-started {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+}
 
 a:hover {
   background-color: #28697B;
   transition: 600ms;
 }
 
-.intro img,
+.astro img,
 .productive img {
 
-  width: 70%;
+  width: 80%;
   height: auto;
 
 }
@@ -148,15 +176,16 @@ a:hover {
 }
 
 .btn {
-  border-radius: 10px;
+  border-radius: 7px;
+  font-size: 0.4em;
   background: #259AAC;
   border: none;
   font-family: var(--font-heading);
   color: var(--neutral-color-white);
-  height: 3rem;
-  font-weight: 600;
+  height: 6rem;
+  font-weight: 700;
   padding: 10 15px;
-  margin: 7px;
+  top: 50px;
 }
 
 input {
@@ -178,6 +207,7 @@ button:hover {
 }
 
 .features {
+  position: relative;
   margin-top: 100px;
   display: flex;
   flex-wrap: wrap;
@@ -387,9 +417,17 @@ footer i {}
     width: 117px;
   }
 
+  h1 {
+    font-size: 4.3em;
+  }
+
   .intro {
     display: block;
     padding: var(--padding-lg);
+  }
+
+  .get-started .astro img {
+    display: block;
   }
 
   .intro-content {

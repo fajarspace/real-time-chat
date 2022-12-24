@@ -19,7 +19,7 @@ inputField.onkeyup = () => {
 
 sendBtn.onclick = () => {
     let xhr = new XMLHttpRequest();
-    xhr.open("POST", "components/insert-chat.php", true);
+    xhr.open("POST", "components/post-chat.php", true);
     xhr.onload = () => {
         if (xhr.readyState === XMLHttpRequest.DONE) {
             if (xhr.status === 200) {

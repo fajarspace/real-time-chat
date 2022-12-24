@@ -24,7 +24,7 @@
           <i class="fas fa-eye"></i>
         </div>
         <div class="field button">
-          <input type="submit" name="submit" value="Continue to Chat">
+          <input type="submit" name="submit" value="Masuk">
         </div>
       </form>
       <div class="link">Belum punya akun? <a href="daftar">Daftar sekarang!</a></div>

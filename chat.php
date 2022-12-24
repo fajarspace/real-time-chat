@@ -8,6 +8,7 @@
 ?>
 <?php include_once "header.php"; ?>
 <body>
+<div id="tsparticles" ></div>
   <div class="wrapper">
     <section class="chat-area">
       <header>
@@ -40,6 +41,7 @@
   </div>
 
   <script src="static/js/chat.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.34.1/tsparticles.min.js" integrity="sha256-D6LXCdCl4meErhc25yXnxIFUtwR96gPo+GtLYv89VZo=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="static/js/particles.js"></script>
 </body>
 </html>

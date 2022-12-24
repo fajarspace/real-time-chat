@@ -40,7 +40,7 @@
           <input type="submit" name="submit" value="Daftar">
         </div>
       </form>
-      <div class="link">sudah daftar? <a href="login.php">Login</a></div>
+      <div class="link">sudah daftar? <a href="masuk">Login</a></div>
     </section>
   </div>
 

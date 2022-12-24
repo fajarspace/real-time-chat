@@ -16,23 +16,19 @@
 </head>
 <body>
 <div id="tsparticles" ></div>
-    <main>
-        <section class="intro">
-          
-            <div class="intro-content">
-                <h1> chattan <br> <div class="space" >.Space</div></h1>
-                <p class="lg-p mt-2">
-                  Realtime chat dengan menggunakan enkripsi vigenere cipher
-                </p>
-                <a href="daftar" class="btn mt-2"> Daftar </a>
-                <a href="masuk" class="btn mt-2"> Masuk </a>
-              </div>
-              <div class="astro" ><img width="800px" src="static/img/astro.png" alt=""></div>
-        </section>
+<div id="astro" ></div>
+<div class="get-started">
+  <div>
+    <h1> chattan <br> <div class="space" >.Space</div>
 
+    <a href="daftar" class="btn"> Get started </a>
+  </h1>
+</div>       
+        <div  >
+
+        </div>
+</div>
         
-        
-    </main>
     <div class="features">
 
             <div class="features-item">
@@ -40,7 +36,7 @@
                 <div class="features-item-body  mt-2">
                     <h3>Akses pesan kamu, kapan saja</h3>
 
-                    <p>Kemampuan untuk menggunakan ponsel, tablet, atau komputer untuk mengakses pesan Kamu dimana saja, kapan saja</p>
+                    <p>Gunakan ponsel, tablet, atau komputer untuk mengakses pesan Kamu dimana saja, kapan saja</p>
                 </div>
             </div>
 
@@ -48,7 +44,7 @@
                 <div class="features-item-head"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/icon-security.svg" alt=""> </div>
                 <div class="features-item-body mt-2">
                     <h3> Keamanan yang ketat</h3>
-                    <p> Menggunakan enkripsi Vigenere cipher yang dapat membantu mengamankan pesan Kamu secara end-to-end</p>
+                    <p> Di lengkapi dengan enkripsi Vigenere cipher yang dapat membantu mengamankan pesan Kamu secara end-to-end</p>
                 </div>
 
             </div>
@@ -56,7 +52,7 @@
                 <div class="features-item-head"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/icon-collaboration.svg" alt=""> </div>
                 <div class="features-item-body  mt-2">
                     <h3> Real-time chat</h3>
-                    <p> Kirim pesan secara langsung</p>
+                    <p> Kirim pesan secara langsung (Live) tanpa takut pesan kamu tidak terkirim</p>
                 </div>
 
             </div>
@@ -68,7 +64,7 @@
                 </div>
             </div>
         </div>
-
+        
 
   <script src="static/js/pass-show-hide.js"></script>
   <script src="static/js/signup.js"></script>
