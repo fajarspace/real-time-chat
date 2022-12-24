@@ -7,6 +7,8 @@
 
 <?php include_once "header.php"; ?>
 <body>
+<div id="tsparticles"></div>
+
   <div class="wrapper">
     <section class="form login">
       <header>chattanSpace</header>
@@ -25,12 +27,12 @@
           <input type="submit" name="submit" value="Continue to Chat">
         </div>
       </form>
-      <div class="link">Not yet signed up? <a href="daftar">Daftar sekarang!</a></div>
+      <div class="link">Belum punya akun? <a href="daftar">Daftar sekarang!</a></div>
     </section>
   </div>
   
+  <?php include_once "footer.php"; ?>
   <script src="static/js/pass-show-hide.js"></script>
   <script src="static/js/login.js"></script>
-
 </body>
 </html>

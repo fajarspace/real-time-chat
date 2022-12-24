@@ -7,5 +7,4 @@
   <title>chattanSpace - Realtime chat dengan enkripsi vigenere cipher</title>
   <link rel="stylesheet" href="static/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-  <script src="static/js/particles.js"></script>
 </head>

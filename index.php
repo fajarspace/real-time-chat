@@ -4,46 +4,193 @@
     header("location: start/");
   }
 ?>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Venus Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Oxygen:700" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/main.css">
 
-<?php include_once "header.php"; ?>
+</head>
 <body>
-<div id="tsparticles"></div>
-<div class="wrapper">
-    <section class="form signup">
-      <header>chattanSpace</header>
-      <form action="components/signup.php" method="POST" enctype="multipart/form-data" autocomplete="off">
-        <div class="error-text"></div>
-        <div class="name-details">
-          <div class="field input">
-            <label>First Name</label>
-            <input type="text" name="fname" placeholder="First name" required>
-          </div>
-          <div class="field input">
-            <label>Last Name</label>
-            <input type="text" name="lname" placeholder="Last name" required>
-          </div>
-        </div>
-        <div class="field input">
-          <label>Email Address</label>
-          <input type="text" name="email" placeholder="Enter your email" required>
-        </div>
-        <div class="field input">
-          <label>Password</label>
-          <input type="password" name="password" placeholder="Enter new password" required>
-          <i class="fas fa-eye"></i>
-        </div>
-        <div class="field image">
-          <label>Select Image</label>
-          <input type="file" name="image" accept="image/x-png,image/gif,image/jpeg,image/jpg">
-        </div>
-        <div class="field button">
-          <input type="submit" name="submit" value="Continue to Chat">
-        </div>
-      </form>
-      <div class="link">Already signed up? <a href="login.php">Login now</a></div>
-    </section>
-  </div>
+<div id="tsparticles" ></div>
+    <main>
+        <section class="intro">
+            <div class="intro-img"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/illustration-intro.png" alt="illustration-intro"></div>
+            <div class="intro-content">
+                <h1> All your files in one secure location, accessible anywhere.</h1>
 
+                <p class="lg-p mt-2">Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.
+                </p>
+                <button class="btn mt-2"> Get Started</button>
+              </div>
+
+
+        </section>
+        <section class="features">
+
+            <div class="features-item">
+                <div class="features-item-head"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/icon-access-anywhere.svg" alt=""> </div>
+                <div class="features-item-body  mt-2">
+                    <h3>Access your files, anywhere</h3>
+
+                    <p>The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
+                </div>
+            </div>
+
+            <div class="features-item">
+                <div class="features-item-head"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/icon-security.svg" alt=""> </div>
+                <div class="features-item-body mt-2">
+                    <h3> Security you can trust</h3>
+                    <p> 2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
+                </div>
+
+            </div>
+            <div class="features-item">
+                <div class="features-item-head"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/icon-collaboration.svg" alt=""> </div>
+                <div class="features-item-body  mt-2">
+                    <h3> Real-time collaboration</h3>
+                    <p> Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+                </div>
+
+            </div>
+            <div class="features-item">
+                <div class="features-item-head"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/icon-any-file.svg" alt=""> </div>
+                <div class="features-item-body  mt-2">
+                    <h3> Store any type of file</h3>
+                    <p> Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.</p>
+                </div>
+            </div>
+        </section>
+        <section class="productive">
+            <div class="productive-img"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/illustration-stay-productive.png" alt=""> </div>
+
+            <div class="productive-content">
+
+                <h2>Stay productive, wherever you are</h2>
+
+                <p class="lg-p"> Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs. </p>
+
+                <p class="lg-p"> Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.
+                </p>
+                <p class="lg-p"> <a class="content-link" href="#">See how Fylo works <i class="fas fa-arrow-alt-circle-right"></i></a> </p>
+            </div>
+        </section>
+
+        <section class="testimonial">
+
+            <div class="testimonial-item">
+                <div class="testimonial-item-text">
+                    <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                </div>
+                <div class="testimonial-item-reviewer">
+                    <div class="testimonial-item-reviewer-img"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/profile-1.jpg" alt=""></div>
+                    <div class="ml-1 testimonial-item-reviewer-text">
+                        <h4>Satish Patel</h4>
+                        <p>Founder & CEO, Huddle</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="testimonial-item">
+                <div class="testimonial-item-text">
+                    <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                </div>
+                <div class="testimonial-item-reviewer">
+                    <div class="testimonial-item-reviewer-img"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/profile-2.jpg" alt=""></div>
+                    <div class="ml-1 testimonial-item-reviewer-text">
+                        <h4> Bruce McKenzie </h4>
+                        <p>Founder & CEO, Huddle</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-item">
+                <div class="testimonial-item-text">
+                    <p> Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                </div>
+                <div class="testimonial-item-reviewer">
+                    <div class="testimonial-item-reviewer-img"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/profile-3.jpg" alt=""></div>
+                    <div class="ml-1 testimonial-item-reviewer-text">
+                        <h4> Iva Boyd</h4>
+                        <p>Founder & CEO, Huddle</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+
+            <div class="cta-item">
+                <div class="cta-text">
+                    <h2>Get early access today </h2>
+                    <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+                </div>
+                <form class="cta-form mt-2" action="">
+                    <input class="input-block" type="text" placeholder="example@email.com"> <button class="btn-block">Get Started For Free</button> </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="contact-info">
+
+            <div class="contact-info-logo"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/logo.svg" alt=""> </div>
+            <div class="contact-info-location">
+                <div class="contact-info-location-item">
+                    <img class="img-footer" src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/icon-location.svg" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+            </div>
+            <div class="contact-info-contacts">
+                <div class="contact-info-contacts-item">
+                    <img class="img-footer" src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/icon-phone.svg" alt="">
+                    <p>+1-543-123-4567</p>
+                </div>
+                <div class="contact-info-contacts-item ">
+
+                    <img class="img-footer" src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/icon-email.svg" alt="">
+                    <p>example@fylo.com</p>
+                </div>
+
+            </div>
+            <nav class="contact-info-links">
+                <ul class="contact-info-links-list">
+                    <li> <a href="#">About Us</a> </li>
+                    <li> <a href="#">Jobs</a> </li>
+                    <li> <a href="#">Press</a> </li>
+                    <li> <a href="#">Blog</a> </li>
+                </ul>
+                <ul class="contact-info-links-list">
+                    <li> <a href="#">Contact Us</a> </li>
+                    <li> <a href="#">Terms</a> </li>
+                    <li> <a href="#">Privacy</a> </li>
+                </ul>
+            </nav>
+            <div class="contact-info-social-links">
+                <a class="icon-link" href="#">
+                    <div class="contact-info-social-link-item flex-center"> <i class="fab fa-facebook-f"></i></div>
+                </a>
+                <a class="icon-link" href="#">
+                    <div class="contact-info-social-link-item flex-center"> <i class="fab fa-twitter"></i></div>
+                </a>
+                <a class="icon-link" href="#">
+                    <div class="contact-info-social-link-item flex-center"> <i class="fab fa-instagram"></i> </div>
+                </a>
+            </div>
+            <div class="attribution-container">
+                <p class="attribution">
+                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://codepen.io/devhannah">Hannah</a>.
+                </p>
+            </div>
+
+
+        </section>
+
+
+    </footer>
 
 
   <script src="static/js/pass-show-hide.js"></script>

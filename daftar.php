@@ -7,23 +7,24 @@
 
 <?php include_once "header.php"; ?>
 <body>
-  <div class="wrapper">
+<div id="tsparticles"></div>
+<div class="wrapper">
     <section class="form signup">
       <header>chattanSpace</header>
       <form action="components/signup.php" method="POST" enctype="multipart/form-data" autocomplete="off">
         <div class="error-text"></div>
         <div class="name-details">
           <div class="field input">
-            <label>First Name</label>
+            <label>Nama Depan</label>
             <input type="text" name="fname" placeholder="First name" required>
           </div>
           <div class="field input">
-            <label>Last Name</label>
+            <label>Nama Belakang</label>
             <input type="text" name="lname" placeholder="Last name" required>
           </div>
         </div>
         <div class="field input">
-          <label>Email Address</label>
+          <label>Email</label>
           <input type="text" name="email" placeholder="Enter your email" required>
         </div>
         <div class="field input">
@@ -32,7 +33,7 @@
           <i class="fas fa-eye"></i>
         </div>
         <div class="field image">
-          <label>Select Image</label>
+          <label>Pilih foto profile</label>
           <input type="file" name="image" accept="image/x-png,image/gif,image/jpeg,image/jpg">
         </div>
         <div class="field button">
@@ -43,8 +44,10 @@
     </section>
   </div>
 
+
+  <?php include_once "footer.php"; ?>
   <script src="static/js/pass-show-hide.js"></script>
-  <script src="static/js/signup.js"></script>
+<script src="static/js/signup.js"></script>
 
 </body>
 </html>
