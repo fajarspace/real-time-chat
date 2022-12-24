@@ -107,10 +107,14 @@ body {
   border: none;
   color: #fff;
   font-size: 17px;
-  background: #333;
+  background: #259AAC;
   border-radius: 5px;
   cursor: pointer;
   margin-top: 13px;
+}
+
+.form form .button input:hover {
+  background-color: #28697B;
 }
 
 .form form .field i {

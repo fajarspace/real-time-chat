@@ -16,20 +16,20 @@
         <div class="name-details">
           <div class="field input">
             <label>Nama Depan</label>
-            <input type="text" name="fname" placeholder="First name" required>
+            <input type="text" name="fname" placeholder="Nama Depan" required>
           </div>
           <div class="field input">
             <label>Nama Belakang</label>
-            <input type="text" name="lname" placeholder="Last name" required>
+            <input type="text" name="lname" placeholder="Nama Belakang" required>
           </div>
         </div>
         <div class="field input">
           <label>Email</label>
-          <input type="text" name="email" placeholder="Enter your email" required>
+          <input type="text" name="email" placeholder="Masukkan email" required>
         </div>
         <div class="field input">
           <label>Password</label>
-          <input type="password" name="password" placeholder="Enter new password" required>
+          <input type="password" name="password" placeholder="Masukkan password" required>
           <i class="fas fa-eye"></i>
         </div>
         <div class="field image">
@@ -37,10 +37,10 @@
           <input type="file" name="image" accept="image/x-png,image/gif,image/jpeg,image/jpg">
         </div>
         <div class="field button">
-          <input type="submit" name="submit" value="Continue to Chat">
+          <input type="submit" name="submit" value="Daftar">
         </div>
       </form>
-      <div class="link">Already signed up? <a href="login.php">Login now</a></div>
+      <div class="link">sudah daftar? <a href="login.php">Login</a></div>
     </section>
   </div>
 
