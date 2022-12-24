@@ -18,41 +18,41 @@
 <div id="tsparticles" ></div>
     <main>
         <section class="intro">
-            <div class="intro-img"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/illustration-intro.png" alt="illustration-intro"></div>
             <div class="intro-content">
-                <h1> All your files in one secure location, accessible anywhere.</h1>
-
-                <p class="lg-p mt-2">Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.
+                <h1> chattan <br> <div class="space" >.Space</div></h1>
+                <p class="lg-p mt-2">
+                  Realtime chat dengan menggunakan enkripsi vigenere cipher
                 </p>
-                <button class="btn mt-2"> Get Started</button>
+                <a href="daftar" class="btn mt-2"> Daftar </a>
+                <a href="masuk" class="btn mt-2"> Masuk </a>
               </div>
 
-
         </section>
+
         <section class="features">
 
             <div class="features-item">
                 <div class="features-item-head"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/icon-access-anywhere.svg" alt=""> </div>
                 <div class="features-item-body  mt-2">
-                    <h3>Access your files, anywhere</h3>
+                    <h3>Akses pesan kamu, kapan saja</h3>
 
-                    <p>The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
+                    <p>Kemampuan untuk menggunakan ponsel, tablet, atau komputer untuk mengakses pesan Kamu dimana saja, kapan saja</p>
                 </div>
             </div>
 
             <div class="features-item">
                 <div class="features-item-head"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/icon-security.svg" alt=""> </div>
                 <div class="features-item-body mt-2">
-                    <h3> Security you can trust</h3>
-                    <p> 2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
+                    <h3> Keamanan yang ketat</h3>
+                    <p> Menggunakan enkripsi Vigenere cipher yang dapat membantu mengamankan pesan Kamu secara end-to-end</p>
                 </div>
 
             </div>
             <div class="features-item">
                 <div class="features-item-head"> <img src="https://hannahshiels.github.io/front-end-mentor/fylo-dark-theme-landing-page-master/images/icon-collaboration.svg" alt=""> </div>
                 <div class="features-item-body  mt-2">
-                    <h3> Real-time collaboration</h3>
-                    <p> Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+                    <h3> Real-time chat</h3>
+                    <p> Kirim pesan secara langsung</p>
                 </div>
 
             </div>

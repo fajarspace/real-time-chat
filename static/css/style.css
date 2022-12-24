@@ -357,7 +357,7 @@ a {
 }
 
 .outgoing .details .plain {
-  background: blue;
+  background: #569FFB;
   color: #fff;
   border-radius: 18px 18px 0 18px;
 }
@@ -425,7 +425,7 @@ a {
   width: 55px;
   border: none;
   outline: none;
-  background: blue;
+  background: #569FFB;
   font-size: 19px;
   cursor: pointer;
   opacity: 0.7;

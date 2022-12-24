@@ -3,7 +3,7 @@ tsParticles.load("tsparticles", {
   interactivity: {
     detect_on: "canvas",
     events: {
-      onclick: { enable: true, mode: "repulse" },
+      onclick: { enable: false, mode: "repulse" },
       onhover: {
         enable: true,
         mode: "bubble",
