@@ -1,6 +1,6 @@
 <?php
 
-  $message = mysqli_real_escape_string($conn, $_POST['message']);
+
   $key = "fajaragung";
 
   function Encipher($input, $key)
