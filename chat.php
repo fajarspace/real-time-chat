@@ -8,7 +8,7 @@
 ?>
 <?php include_once "header.php"; ?>
 <body>
-<div id="tsparticles" ></div>
+<!-- <div id="tsparticles" ></div> -->
   <div class="wrapper">
     <section class="chat-area">
       <header>

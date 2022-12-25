@@ -44,10 +44,11 @@
     </section>
   </div>
 
-
-  <?php include_once "footer.php"; ?>
   <script src="static/js/pass-show-hide.js"></script>
 <script src="static/js/signup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@1.34.1/tsparticles.min.js" integrity="sha256-D6LXCdCl4meErhc25yXnxIFUtwR96gPo+GtLYv89VZo=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="static/js/particles.js"></script>
+<script type="text/javascript" src="static/js/particles2.js"></script>
 
 </body>
 </html>

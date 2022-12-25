@@ -31,7 +31,7 @@
                 }
             }
         }else{
-            $output .= '<div class="text">Tidak ada pesan, silahkan chat duluan.</div>';
+            $output .= '<div class="text"><img width="90%" src="static/img/messenger.png" /> Welcome! Type to start</div>';
         }
         echo $output;
     }else{

@@ -1,117 +1,60 @@
-
-particlesJS('particles_js', {
-  "particles": {
-    "number": {
-      "value": 80,
-      "density": {
-        "enable": true,
-        "value_area": 800
-      }
-    },
-    "color": {
-      "value": "#ffffff"
-    },
-    "shape": {
-      "type": "circle",
-      "stroke": {
-        "width": 0,
-        "color": "#000000"
+tsParticles.load("particles_js", {
+  fpsLimit: 60,
+  interactivity: {
+    detect_on: "canvas",
+    events: {
+      onclick: { enable: false, mode: "repulse" },
+      onhover: {
+        enable: true,
+        mode: "bubble",
+        parallax: { enable: false, force: 2, smooth: 10 }
       },
-      "polygon": {
-        "nb_sides": 5
-      },
-      "image": {
-        "src": "img/github.svg",
-        "width": 100,
-        "height": 100
-      }
+      resize: true
     },
-    "opacity": {
-      "value": 0.5,
-      "random": false,
-      "anim": {
-        "enable": false,
-        "speed": 1,
-        "opacity_min": 0.1,
-        "sync": false
-      }
-    },
-    "size": {
-      "value": 5,
-      "random": true,
-      "anim": {
-        "enable": false,
-        "speed": 40,
-        "size_min": 0.1,
-        "sync": false
-      }
-    },
-    "line_linked": {
-      "enable": true,
-      "distance": 150,
-      "color": "#ffffff",
-      "opacity": 0.4,
-      "width": 1
-    },
-    "move": {
-      "enable": true,
-      "speed": 2,
-      "direction": "none",
-      "random": false,
-      "straight": false,
-      "out_mode": "out",
-      "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
-      }
+    modes: {
+      bubble: { distance: 200, duration: 2, opacity: 0, size: 0, speed: 3 },
+      grab: { distance: 400, line_linked: { opacity: 1 } },
+      push: { particles_nb: 4 },
+      remove: { particles_nb: 2 },
+      repulse: { distance: 400, duration: 0.4 }
     }
   },
-  "interactivity": {
-    "detect_on": "canvas",
-    "events": {
-      "onhover": {
-        "enable": true,
-        "mode": "repulse"
-      },
-      "onclick": {
-        "enable": true,
-        "mode": "push"
-      },
-      "resize": true
+  particles: {
+    color: { value: "#ffffff" },
+    line_linked: {
+      color: "#ffffff",
+      distance: 150,
+      enable: false,
+      opacity: 0.4,
+      width: 1
     },
-    "modes": {
-      "grab": {
-        "distance": 400,
-        "line_linked": {
-          "opacity": 1
-        }
+    move: {
+      attract: { enable: false, rotateX: 600, rotateY: 600 },
+      bounce: false,
+      direction: "none",
+      enable: true,
+      out_mode: "out",
+      random: true,
+      speed: 0.3,
+      straight: false
+    },
+    number: { density: { enable: true, value_area: 800 }, value: 600 },
+    opacity: {
+      anim: { enable: true, opacity_min: 0.3, speed: 5, sync: false },
+      random: {
+        enable: true,
+        minimumValue: 0.3
       },
-      "bubble": {
-        "distance": 400,
-        "size": 40,
-        "duration": 2,
-        "opacity": 8,
-        "speed": 3
-      },
-      "repulse": {
-        "distance": 200
-      },
-      "push": {
-        "particles_nb": 4
-      },
-      "remove": {
-        "particles_nb": 2
-      }
+      value: 0.6
+    },
+    shape: {
+      type: "circle"
+    },
+    size: {
+      anim: { enable: false, size_min: 0.3, speed: 4, sync: false },
+      random: false,
+      value: 1
     }
   },
-  "retina_detect": true,
-  "config_demo": {
-    "hide_card": false,
-    "background_color": "#b61924",
-    "background_image": "",
-    "background_position": "50% 50%",
-    "background_repeat": "no-repeat",
-    "background_size": "cover"
-  }
+  retina_detect: true
 });
