@@ -204,10 +204,10 @@
         <div class="w-full sm:w-1/2 p-6 mt-6">
           <div class="align-middle">
             <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-              Responsive desain
+              Simple & responsive desain
             </h3>
             <p class="text-gray-500 mb-8 text-2xl">
-              Desain antarmuka
+              Desain antarmuka yang nyaman untuk semua pengguna
               <br />
               <br />
               <!-- Images from:

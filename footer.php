@@ -69,6 +69,14 @@
             </li>
           </ul>
         </div>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Built with ❤️ </p>
+          <ul class="list-reset mb-6">
+          <h1 class="my-2 text-7xl font-bold text-gray-500 leading-tight">
+          chattan .Space
+          </h1>
+          </ul>
+        </div>
 
       </div>
     </div>
