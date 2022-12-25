@@ -17,13 +17,13 @@
           <p class="uppercase text-gray-500 md:mb-6">Links</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-blue-500">Jurnal</a>
+              <a href="#" class=" underline text-gray-800 hover:text-blue-500">Jurnal</a>
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-blue-500">Banner</a>
+              <a href="#" class="underline text-gray-800 hover:text-blue-500">Banner</a>
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="#" class="no-underline hover:underline text-gray-800 hover:text-blue-500">Support</a>
+              <a target="_blank" href="https://github.com/fajarspace/real-time-chat" class="underline text-gray-800 hover:text-blue-500">Fork me on Github</a>
             </li>
           </ul>
         </div>

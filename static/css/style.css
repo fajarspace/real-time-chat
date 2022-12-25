@@ -13,7 +13,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #050C20;
+  background: linear-gradient(90deg, #144272 0%, #050C20 100%);
   padding: 0 10px;
 }
 

@@ -38,12 +38,12 @@
     }
 
     #particles_js {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: 50% 50%;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
     }
   </style>
 </head>
@@ -102,17 +102,17 @@
   <div class="pt-10">
     <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
       <!--Left Col-->
-      <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
+      <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-center">
         <!-- <p class="uppercase tracking-loose w-full">What business are you?</p> -->
         <h1 class="my-2 text-7xl font-bold leading-tight">
           chattan .Space
         </h1>
         <p class="leading-normal text-2xl mb-8">
-          Realtime chat dengan menggunakan enkripsi vigenere cipher
+          Real-time chat menggunakan enkripsi vigenere cipher
         </p>
         <a href ="daftar"
            class=" text-2xl mx-auto lg:mx-0 bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-20 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-          Sign Up
+          Start!
         </a>
         
       </div>
@@ -156,7 +156,7 @@
       <div class="flex flex-wrap">
         <div class="w-5/6 sm:w-1/2 p-6">
           <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-            Akses pesan kamu, kapan saja
+            Akses pesan kapan saja
           </h3>
           <p class="text-gray-500 mb-8 text-2xl">
             Gunakan ponsel, tablet, atau komputer untuk mengakses pesan dimana saja, kapan saja
@@ -253,15 +253,13 @@
     <div class="flex flex-wrap">
       <div class="w-5/6 sm:w-1/2 p-6">
         <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-          Akses pesan kamu, kapan saja
+
         </h3>
         <p class="text-gray-500 mb-8 text-2xl">
-          Video
         </p>
       </div>
       <div class="w-full sm:w-1/2 p-2">
-        <img style="-webkit-animation: floatBubble 4s infinite;
-  -webkit-animation-direction: alternate;" width="70%" src="static/img/main/astro-coffee-min.png" alt="">
+
       </div>
     </div>
   </section>
