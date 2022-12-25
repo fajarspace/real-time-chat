@@ -24,7 +24,7 @@
       background: linear-gradient(90deg, #144272 0%, #050C20 100%);
     }
 
-    a {
+    a, p {
       position: relative;
     }
     
@@ -112,7 +112,7 @@
         </p>
         <a href ="daftar"
            class=" text-2xl mx-auto lg:mx-0 bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-20 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-          Start!
+          Sign Up
         </a>
         
       </div>
@@ -251,16 +251,25 @@
   </svg>
   <section class="container mx-auto text-center py-6 mb-12">
     <div class="flex flex-wrap">
-      <div class="w-5/6 sm:w-1/2 p-6">
-        <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+    <div class="flex flex-wrap flex-col-reverse sm:flex-row">
+        <div class="w-full sm:w-1/2 p-6 mt-6">
+          <img width="50%" style="border-radius:10%" src="static/img/main/mobile-min.gif" alt="">
+        </div>
+        <div class="w-full sm:w-1/2 p-6 mt-6">
+          <div class="align-middle">
+            <!-- <h3 class="text-3xl text-white-800 font-bold leading-none mb-3">
+              Tujuan
+            </h3> -->
+            <p class="text-white-500 mb-8 text-2xl">
+            "Untuk memudahkan pengguna dalam melakukan komunikasi yang efisien dan efektif. Karena dengan aplikasi ini pesan yang anda kirimkan sudah diamankan dengan sebuah kunci. Sehingga jauh lebih aman dalam mengirim pesan"
+              <br />
+              <br />
+              <!-- Images from:
 
-        </h3>
-        <p class="text-gray-500 mb-8 text-2xl">
-        </p>
-      </div>
-      <div class="w-full sm:w-1/2 p-2">
-
-      </div>
+              <a class="text-blue-500 underline" href="https://undraw.co/">undraw.co</a> -->
+            </p>
+          </div>
+        </div>
     </div>
   </section>
 
