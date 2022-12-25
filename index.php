@@ -197,6 +197,25 @@
             <img width="80%" src="static/img/main/secure.svg" alt="">
           </div>
         </div>
+        <div class="flex flex-wrap flex-col-reverse sm:flex-row">
+        <div class="w-full sm:w-1/2 p-6 mt-6">
+          <img width="80%" src="static/img/main/responsive-ui.svg" alt="">
+        </div>
+        <div class="w-full sm:w-1/2 p-6 mt-6">
+          <div class="align-middle">
+            <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+              Responsive desain
+            </h3>
+            <p class="text-gray-500 mb-8 text-2xl">
+              Desain antarmuka
+              <br />
+              <br />
+              <!-- Images from:
+
+              <a class="text-blue-500 underline" href="https://undraw.co/">undraw.co</a> -->
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -240,7 +259,7 @@
         </p>
       </div>
       <div class="w-full sm:w-1/2 p-6">
-        <img width="80%" src="static/img/main/chat.svg" alt="">
+        <img width="80%" src="static/img/main/progressive.svg" alt="">
       </div>
     </div>
   </section>
