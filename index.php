@@ -13,6 +13,7 @@
   <meta name="description" content="Simple landind page" />
   <meta name="keywords" content="" />
   <meta name="author" content="" />
+  <link rel="shortcut icon" href="static/img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
   <link rel="stylesheet" href="static/css/main.css">
   <!--Replace with your tailwind.css once created-->
