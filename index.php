@@ -4,6 +4,7 @@
     header("location: start/");
   }
 ?>
+
 <html>
 <head>
   <meta charset="UTF-8" />
@@ -104,9 +105,10 @@
       <!--Left Col-->
       <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
         <!-- <p class="uppercase tracking-loose w-full">What business are you?</p> -->
-        <h1 class="my-2 text-7xl font-bold leading-tight">
+        <!-- <h1 class="my-2 text-7xl font-bold leading-tight">
           chattan .Space
-        </h1>
+        </h1> -->
+        <img src="static/img/logo/logo2.png" alt="">
         <p class="leading-normal text-2xl mb-8">
         Implementasi Vigenère cipher pada keamanan pesan text berbasis web chat
         </p>
