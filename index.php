@@ -108,8 +108,8 @@
         <!-- <h1 class="my-2 text-7xl font-bold leading-tight">
           chattan .Space
         </h1> -->
-        <img src="static/img/logo/logo-white.png" alt="">
-        <p class="leading-normal text-2xl mb-8">
+        <img  src="static/img/logo/logo-white-cropped.png" alt="">
+        <p class="leading-normal text-2xl">
         Implementasi Vigenère cipher pada keamanan pesan text berbasis web chat
         </p>
         <a href ="daftar"
@@ -124,7 +124,7 @@
       </div>
     </div>
   </div>
-  <div class="relative -mt-12 lg:-mt-24">
+  <div class="-mt-12 lg:-mt-24">
     <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink">
       <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
