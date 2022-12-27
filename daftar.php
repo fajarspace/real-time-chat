@@ -10,7 +10,9 @@
 <div id="tsparticles"></div>
 <div class="wrapper">
     <section class="form signup">
-      <header>chattanSpace</header>
+      <header> 
+        <center><img width="150px" src="static/img/logo/logo-black-cropped.png" alt=""></center>
+      </header>
       <form action="components/signup.php" method="POST" enctype="multipart/form-data" autocomplete="off">
         <div class="error-text"></div>
         <div class="name-details">
@@ -40,7 +42,7 @@
           <input type="submit" name="submit" value="Daftar">
         </div>
       </form>
-      <div class="link">sudah daftar? <a href="masuk">Login</a></div>
+      <div class="link">sudah daftar? <a href="masuk">Masuk</a></div>
     </section>
   </div>
 

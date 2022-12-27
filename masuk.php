@@ -11,16 +11,18 @@
 
   <div class="wrapper">
     <section class="form login">
-      <header>chattanSpace</header>
+      <header>
+        <center><img width="150px" src="static/img/logo/logo-black-cropped.png" alt=""></center>
+      </header>
       <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
         <div class="error-text"></div>
         <div class="field input">
           <label>Email Address</label>
-          <input type="text" name="email" placeholder="Enter your email" required>
+          <input type="text" name="email" placeholder="Masukkan email" required>
         </div>
         <div class="field input">
           <label>Password</label>
-          <input type="password" name="password" placeholder="Enter your password" required>
+          <input type="password" name="password" placeholder="Masukkan password" required>
           <i class="fas fa-eye"></i>
         </div>
         <div class="field button">
