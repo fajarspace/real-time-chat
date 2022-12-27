@@ -1,4 +1,4 @@
-## Tech Stacks
+## Tech Stack
 - PHP
 - MYSQL
 - Tailwind CSS
