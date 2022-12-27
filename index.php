@@ -11,7 +11,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Realtime chat dengan menggunakan enkripsi vigenere cipher</title>
-  <meta name="description" content="chattan .Space />
+  <meta property="og:image" content="static/img/logo/logo-black-solid.png" />
+  <meta name="description" content="Implementasi Vigenère cipher pada keamanan pesan text berbasis web chat" />
   <meta name="keywords" content="" />
   <meta name="author" content="" />
   <link rel="shortcut icon" href="static/img/favicon.ico" type="image/x-icon">
