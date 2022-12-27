@@ -194,11 +194,11 @@
               Keamanan yang ketat
             </h3>
             <p class="text-gray-500 mb-8 text-2xl">
-              Di lengkapi dengan enkripsi Vigenere cipher yang dapat membantu mengamankan pesan Kamu secara end-to-end
+              Di lengkapi dengan enkripsi Vigenere cipher yang dapat membantu mengamankan pesan secara end-to-end
             </p>
           </div>
-          <div class="w-full sm:w-1/2 p-6">
-            <img width="80%" src="static/img/main/secure.svg" alt="">
+          <div class="w-full sm:w-1/2 pb-6">
+            <img width="80%" src="static/img/main/security-illust.png" alt="">
           </div>
         </div>
         <div class="flex flex-wrap flex-col-reverse sm:flex-row">
