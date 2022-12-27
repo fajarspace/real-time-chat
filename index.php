@@ -108,7 +108,7 @@
         <!-- <h1 class="my-2 text-7xl font-bold leading-tight">
           chattan .Space
         </h1> -->
-        <img src="static/img/logo/logo2.png" alt="">
+        <img src="static/img/logo/logo-white.png" alt="">
         <p class="leading-normal text-2xl mb-8">
         Implementasi Vigenère cipher pada keamanan pesan text berbasis web chat
         </p>
