@@ -3,4 +3,4 @@
 - MYSQL
 - Tailwind CSS
 
-!(static/img/platform/laptop.png)[asd]
+![Alt Text](static/img/platform/laptop.png)
